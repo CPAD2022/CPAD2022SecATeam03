@@ -41,8 +41,8 @@ class AuthController extends StateNotifier<bool> {
     state = false; //after fetching value of user
     user.fold(
         (l) => showSnackBar(context, l.message),
-        (UserModel) =>
-            _ref.read(userProvider.notifier).update((state) => UserModel));
+        (userModel) =>
+            _ref.read(userProvider.notifier).update((state) => userModel));
   }
 
   Stream<UserModel> getUserData(String uid) {
