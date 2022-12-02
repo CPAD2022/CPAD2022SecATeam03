@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "177739275020-01uc4s4cb4injs5kp2sou7tgt12du7c7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.techogram",
+            "certificate_hash": "85e67461a343cb9084f6b0933b71478a3cbc5fba"
+          }
+        },
+        {
           "client_id": "177739275020-647221ieqpq1ga57t296trs0m3mh4eac.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
